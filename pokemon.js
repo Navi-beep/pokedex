@@ -34,7 +34,7 @@
 
 function buildPokeCard(PokeData) {
 
-document.getElementById("img").innerHTML = img.src = PokeData['sprites']['front_default'];
+document.getElementById("img").innerHTML = img.src = PokeData['sprites']['other']['official-artwork']['front_default'];
 
 let pokeName = PokeData['name'];
 let rice =  pokeName[0].toUpperCase() + pokeName.substring(1);
